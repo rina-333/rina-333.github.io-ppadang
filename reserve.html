@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Padang Travel</title>
+    <link href="Image/logoBagonjong.png">
+    
+    
+
+    <style >
+    .style1 {
+	    font-family: Pacifico
+        }
+    .style2 {
+	    color: #1c0453;
+	    font-size: 45px;
+
+        }
+    .style3 {
+        font-size: 45px
+    }
+
+    body, html{
+      height: 100%;
+    }
+
+    .bg {
+      background-image: url("Image/mentawaiBeach.jpg");
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bg-color {
+        background-color: rgba(100, 94, 131, 0.82);
+        min-height: 650px;
+        }
+
+    .mid {
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+        height: 100%;
+    }
+
+    .link-button{
+        text-decoration: none;
+        background-color: aquamarine;
+        color: black;
+        padding: 2px 6px 2px 6px;
+        border: burlywood;
+        border-radius: 2px;
+    }
+
+    .form-style-3{
+        max-width: 450px;
+        height: 10%;
+    
+    }
+
+    .form-style-3 label{
+        display:block;
+        margin-bottom: 10px;
+    }
+
+    .form-style-3 label > span{
+	float: left;
+	width: 100px;
+	color: #484468;
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #fff;
+    }
+    .form-style-3 fieldset{
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        margin: 0px 0px 10px 0px;
+        border: 1px solid #728fbb;
+        padding: 20px;
+        background: #c3e0fc;
+        box-shadow: inset 0px 0px 15px #FFE5E5;
+        -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+        -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+    }
+    .form-style-3 fieldset legend{
+        color: #151222;
+        border-top: 1px solid #7768fd;
+        border-left: 1px solid #7768fd;
+        border-right: 1px solid #7768fd;
+        border-radius: 5px 5px 0px 0px;
+        -webkit-border-radius: 5px 5px 0px 0px;
+        -moz-border-radius: 5px 5px 0px 0px;
+        background: #cedcf7;
+        padding: 0px 8px 3px 8px;
+        box-shadow: -0px -1px 2px #F1F1F1;
+        -moz-box-shadow:-0px -1px 2px #F1F1F1;
+        -webkit-box-shadow:-0px -1px 2px #F1F1F1;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .form-style-3 input[type=text],
+    .form-style-3 input[type=datetime-local],
+    .form-style-3 input[type=email],
+    .form-style-3 select, 
+    .form-style-3 textarea{
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border: 1px solid #5140f0;
+        outline: none;
+        color:  #5140f0A9;
+        padding: 5px 8px 5px 8px;
+        box-shadow: inset 1px 1px 4px #5140f0;
+        -moz-box-shadow: inset 1px 1px 4px #ded5ff;
+        -webkit-box-shadow: inset 1px 1px 4px #d5e4ff;
+        background: #b8ccf7;
+        width:50%;
+
+    }
+    .form-style-3  input[type=submit]
+        {
+        background: #1047be;
+        border: 1px solid #1047be;
+        padding: 5px 15px 5px 15px;
+        color: #FFCBE2;
+        box-shadow: inset -1px -1px 3px #230a94;
+        -moz-box-shadow: inset -1px -1px 3px#230a94;
+        -webkit-box-shadow: inset -1px -1px 3px#230a94;
+        border-radius: 3px;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;	
+        font-weight: bold;
+    }
+    .form-style-3 .required{
+        color:red;
+        font-weight:normal;
+    }
+</style>
+
+    </style>
+</head>
+
+<body>
+  <center>
+    <div class="header">  
+      <div class="bg">
+        <div class="bg-color">
+          <div class="mid">
+            
+            <div class="form-style-3">
+                <form action="index.html">
+                <fieldset><legend>Silahkan isi data diri anda</legend>
+                  <label for="field1"><span>Nama <span class="required">*</span></span>
+                  <input type="text" class="input-field" name="field1" value="" /></label>
+                  <label for="field2"><span>Email <span class="required">*</span></span>
+                  <input type="email" class="input-field" name="field2" value="" /></label>
+                  <label for="field3"><span>No. HP <span class="required">*</span></span>
+                  <input type="text" class="input-field" name="field3" value="" /></label>
+                  <label for="field4"><span>Pilihan Paket</span><select name="field4" class="select-field">
+                  <option value="none">--Pilih disini--</option>
+                  <option value="3D4N">3 DAY 4 NIGHT</option>
+                  <option value="2D">2 DAY</option>
+                  <option value="1D">1 DAY</option>
+                </select></label>
+                <label for="field5"><span>Tanggal Pilihan<span class="required">*</span></span>
+                <input type="datetime-local" class="datetime" name="field3" value="" /></label> 
+                <input type="submit" onclick="return confirm()" value="Kirim">
+                <p id="message"></p>
+                <script>
+                    function confirm(){
+                        let ask = confirm("Apakah Data Sudah Benar?");
+                        if (ask === true){
+                            message = "Yes";
+
+                        } else {
+                            message ="No";
+                        }
+
+                        document.getElementById("message").innerHTML = message;
+                    }
+                </script>
+                </fieldset>
+                </form>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </center>
+  
+</body>
+</html>
